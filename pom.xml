@@ -5,7 +5,7 @@
 
   <groupId>com.lambdaworks</groupId>
   <artifactId>scrypt</artifactId>
-  <version>1.4.0</version>
+  <version>1.4.1-STRIP</version>
 
   <packaging>jar</packaging>
 
@@ -58,7 +58,7 @@
         </configuration>
       </plugin>
 
-      <plugin>
+      <!--      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jarsigner-plugin</artifactId>
         <version>1.2</version>
@@ -72,6 +72,7 @@
           </execution>
         </executions>
       </plugin>
+      -->
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -102,6 +103,7 @@
         </executions>
       </plugin>
 
+      <!--
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
@@ -116,6 +118,7 @@
           </execution>
         </executions>
       </plugin>
+      -->
     </plugins>
   </build>
 
